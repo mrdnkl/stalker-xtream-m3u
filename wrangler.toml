@@ -1,0 +1,4 @@
+name = "stalker-xtream-m3u"
+main = "_worker.js"
+compatibility_date = "2026-11-06"
+keep_vars = true
