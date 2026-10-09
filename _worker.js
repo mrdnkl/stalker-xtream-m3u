@@ -866,7 +866,6 @@ async function handleRequest(request)  {
       = new TransformStream( {
         start(controller)  {
           controller.enqueue(new TextEncoder().encode(`#EXTM3U\n`));
-          controller.enqueue(new TextEncoder().encode(`# Total Channels => ${channels.length}\n`));
           controller.enqueue(new TextEncoder().encode(`# Xtream Playlist M3U Converted\n\n`));
         }
         ,
